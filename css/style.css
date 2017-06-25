@@ -1,0 +1,1649 @@
+#banner-336x300,
+#banner-120x600,
+#banner-240x400,
+#banner-728x90{
+    border-left: 1px solid #3e323f;
+    border-bottom: 1px solid #3e323f;
+    margin: 0;
+    background: #fff;
+}
+
+
+
+/**********************
+*****banner-336x300****
+***********************/
+
+#banner-336x300{
+    height: 300px;
+}
+
+
+#banner-336x300 #girl1{
+    position: absolute;
+    right: 0;
+    
+    animation: 2s rightgirl336 ease 0s forwards, 15s imgfade ease 0s forwards;
+    -webkit-animation: 2s rightgirl336 ease 0s forwards, 15s imgfade ease 0s forwards;
+    -moz-animation: 2s rightgirl336 ease 0s forwards, 15s imgfade ease 0s forwards;
+    -o-animation: 2s rightgirl336 ease 0s forwards, 15s imgfade ease 0s forwards;
+}
+
+#banner-336x300 #girl2{
+    position: absolute;
+    right: 2;
+    
+    opacity: 0;
+    animation: 2s rightgirl336 ease 0s forwards, 9s scale3 ease 0s forwards;
+    -webkit-animation: 2s rightgirl336 ease 0s forwards, 9s scale3 ease 0s forwards;
+    -moz-animation: 2s rightgirl336 ease 0s forwards, 9s scale3 ease 0s forwards;
+    -o-animation: 2s rightgirl336 ease 0s forwards, 9s scale3 ease 0s forwards;
+
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+}
+
+#banner-336x300 #purple{
+    position: absolute;
+    left: -4px;
+    
+    opacity: 0;
+    animation: 2s scale336 ease 0s forwards;
+    -webkit-animation: 2s scale336 ease 0s forwards;
+    -moz-animation: 2s scale336 ease 0s forwards;
+    -o-animation: 2s scale336 ease 0s forwards; 
+}
+
+
+#banner-336x300 h1{
+    font-family: 'Italianno', cursive;
+    position: absolute;
+    top: 32px;
+    left: 16px;
+    color: #d668a6;
+    font-size: 44px;
+    line-height: 36px;
+    text-align: center;
+    
+    opacity: 0;
+    animation: 2s lefth1336 ease 0s forwards;
+    -webkit-animation: 2s lefth1336 ease 0s forwards;
+    -moz-animation: 2s lefth1336 ease 0s forwards;
+    -o-animation: 2s lefth1336 ease 0s forwards;
+    -webkit-animation-delay: 1.5s;  /*Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+        
+}
+
+#banner-336x300 h2,
+#banner-336x300 h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+#banner-336x300 h2{
+    position: absolute;
+    top: 115px;
+    left: 29px;
+    
+    opacity: 0;
+    animation: 2s lefth2336 ease 0s forwards;
+    -webkit-animation: 2s lefth2336 ease 0s forwards;
+    -moz-animation: 2s lefth2336 ease 0s forwards;
+    -o-animation: 2s lefth2336 ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s
+}
+
+#banner-336x300 h3{
+    position: absolute;
+    top: 140px;
+    left: 55px;
+    
+    opacity: 0;
+    animation: 2s lefth3336 ease 0s forwards;
+    -webkit-animation: 2s lefth3336 ease 0s forwards;
+    -moz-animation: 2s lefth3336 ease 0s forwards;
+    -o-animation: 2s lefth3336 ease 0s forwards;
+    -webkit-animation-delay: 4.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4.5s
+}
+
+#banner-336x300 h4{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #3e323f;
+    font-size: 14px;
+    text-decoration: none;
+    bottom: 5px;
+    left: 45px;
+    
+}
+
+#banner-336x300 #sale{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 4px solid #bc3987;
+    border-radius: 50%;
+    padding-top: 21px;
+    top: 175px;
+    left: 54px;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa5ff+0,bc3987+100 */
+    background: rgb(255,165,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,165,255,1) 0%, rgba(188,57,135,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,165,255,1) 0%,rgba(188,57,135,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,165,255,1) 0%,rgba(188,57,135,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa5ff', endColorstr='#bc3987',GradientType=0 ); /* IE6-9 */
+    
+    opacity: 0;
+    animation: 2s scale ease 0s forwards;
+    -webkit-animation: 2s scale ease 0s forwards;
+    -moz-animation: 2s scale ease 0s forwards;
+    -o-animation: 2s scale ease 0s forwards;
+    -webkit-animation-delay: 6s; /* Safari 4.0 - 8.0 */
+    animation-delay: 6s
+}
+
+
+
+/**********************
+*****animáció-336x300****
+***********************/
+
+@keyframes rightgirl336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-webkit-keyframes rightgirl336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-moz-keyframes rightgirl336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-o-keyframes rightgirl336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+
+
+@keyframes scale336 {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes scale336 {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-moz-keyframes scale336 {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-o-keyframes scale336 {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+@keyframes lefth1336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 16px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth1336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 16px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth1336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 16px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth1336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 16px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes lefth2336 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 29px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth2336 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 29px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth2336 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 29px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth2336 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 29px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes lefth3336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 55px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth3336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 55px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth3336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 55px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth3336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 55px;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+/**********************
+*****banner-120x600****
+***********************/
+
+#banner-120x600{
+    height: 600px;
+    border-right: 1px solid #3e323f;
+}
+
+
+#banner-120x600 #girl1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    animation: 2s topgirl120 ease 0s forwards, 15s imgfade ease 0s forwards;
+    -webkit-animation: 2s topgirl120 ease 0s forwards, 15s imgfade ease 0s forwards;
+    -moz-animation: 2s topgirl120 ease 0s forwards, 15s imgfade ease 0s forwards;
+    -o-animation: 2s topgirl120 ease 0s forwards, 15s imgfade ease 0s forwards;
+}
+
+#banner-120x600 #girl2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    opacity: 0;
+    animation: 2s topgirl120 ease 0s forwards, 12s scale2 ease 0s forwards;
+    -webkit-animation: 2s topgirl120 ease 0s forwards, 12s scale2 ease 0s forwards;
+    -moz-animation: 2s topgirl120 ease 0s forwards, 12s scale2 ease 0s forwards;
+    -o-animation: 2s topgirl120 ease 0s forwards, 12s scale2 ease 0s forwards;
+
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+}
+
+#banner-120x600 #purple{
+    position: absolute;
+    bottom: 94px;
+    
+    animation: 2s bottom120 ease 0s forwards;
+    -webkit-animation: 2s bottom120 ease 0s forwards;
+    -moz-animation: 2s bottom120 ease 0s forwards;
+    -o-animation: 2s bottom120 ease 0s forwards;
+}
+
+
+
+#banner-120x600 h1{
+    font-family: 'Italianno', cursive;
+    position: absolute;
+    top: 232px;
+    left: 5px;;
+    color: #d668a6;
+    font-size: 38px;
+    line-height: 32px;
+    text-align: center;
+    
+    opacity: 0;
+    animation: 2s lefth1120 ease 0s forwards;
+    -webkit-animation: 2s lefth1120 ease 0s forwards;
+    -moz-animation: 2s lefth1120 ease 0s forwards;
+    -o-animation: 2s lefth1120 ease 0s forwards;
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+}
+
+#banner-120x600 h2,
+#banner-120x600 h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+#banner-120x600 h2{
+    position: absolute;
+    top: 320px;
+    left: 0;
+    text-align: center;
+    line-height: 24px;
+    
+    opacity: 0;
+    animation: 2s lefth2120 ease 0s forwards;
+    -webkit-animation: 2s lefth2120 ease 0s forwards;
+    -moz-animation: 2s lefth2120 ease 0s forwards;
+    -o-animation: 2s lefth2120 ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s
+}
+
+#banner-120x600 h3{
+    position: absolute;
+    top: 385px;
+    left: 14px;
+    text-align: center;
+    
+    opacity: 0;
+    animation: 2s lefth3120 ease 0s forwards;
+    -webkit-animation: 2s lefth3120 ease 0s forwards;
+    -moz-animation: 2s lefth3120 ease 0s forwards;
+    -o-animation: 2s lefth3120 ease 0s forwards;
+    -webkit-animation-delay: 4.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4.5s
+}
+
+#banner-120x600 h4{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #3e323f;
+    font-size: 10px;
+    text-decoration: none;
+    bottom: 5px;
+    left: 9px;
+
+}
+
+#banner-120x600 #sale{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 4px solid #bc3987;
+    border-radius: 50%;
+    padding-top: 21px;
+    top: 455px;
+    left: 20px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa5ff+0,bc3987+100 */
+    background: rgb(255,165,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,165,255,1) 0%, rgba(188,57,135,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,165,255,1) 0%,rgba(188,57,135,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,165,255,1) 0%,rgba(188,57,135,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa5ff', endColorstr='#bc3987',GradientType=0 ); /* IE6-9 */
+    
+    opacity: 0;
+    animation: 2s scale ease 0s forwards;
+    -webkit-animation: 2s scale ease 0s forwards;
+    -moz-animation: 2s scale ease 0s forwards;
+    -o-animation: 2s scale ease 0s forwards;
+    -webkit-animation-delay: 6s; /* Safari 4.0 - 8.0 */
+    animation-delay: 6s
+}
+
+
+/**********************
+*****animáció-120x600****
+***********************/
+
+@keyframes topgirl120 {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@-webkit-keyframes topgirl120 {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@-moz-keyframes topgirl120 {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@-o-keyframes topgirl120 {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+
+
+@keyframes bottom120 {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 94px;
+    }
+}
+@-webkit-keyframes bottom120 {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 94px;
+    }
+}
+@-moz-keyframes bottom120 {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 94px;
+    }
+}
+@-o-keyframes bottom120 {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 94px;
+    }
+}
+
+
+@keyframes lefth1120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth1120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth1120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth1120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes lefth2120 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth2120 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth2120 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth2120 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes lefth3120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 14px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth3120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 14px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth3120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 14px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth3120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 14px;
+        opacity: 1;
+    }
+}
+
+
+
+
+/**********************
+*****banner-240x400****
+***********************/
+
+#banner-240x400{
+    height: 400px;
+    border-right: 1px solid #3e323f;
+}
+
+
+#banner-240x400 #girl1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    animation: 2s topgirl ease 0s forwards, 15s imgfade ease 0s forwards;
+    -webkit-animation: 2s topgirl ease 0s forwards, 15s imgfade ease 0s forwards;;
+    -moz-animation: 2s topgirl ease 0s forwards, 15s imgfade ease 0s forwards;;
+    -o-animation: 2s topgirl ease 0s forwards, 15s imgfade ease 0s forwards;;  
+}
+
+#banner-240x400 #girl2{
+    position: absolute;
+    right: 0;
+    
+    opacity: 0;
+    animation: 2s topgirl ease 0s forwards, 12s scale2 ease 0s forwards;
+    -webkit-animation: 2s topgirl ease 0s forwards, 12s scale2 ease 0s forwards;
+    -moz-animation: 2s topgirl ease 0s forwards, 12s scale2 ease 0s forwards;
+    -o-animation: 2s topgirl ease 0s forwards, 12s scale2 ease 0s forwards;
+
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+}
+
+#banner-240x400 #purple{
+    position: absolute;
+    bottom: 50px;
+    
+    animation: 2s bottom ease 0s forwards;
+    -webkit-animation: 2s bottom ease 0s forwards;
+    -moz-animation: 2s bottom ease 0s forwards;
+    -o-animation: 2s bottom ease 0s forwards;
+}
+
+
+#banner-240x400 h1{
+    font-family: 'Italianno', cursive;
+    position: absolute;
+    top: 187px;
+    left: 15px;
+    color: #d668a6;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    
+    opacity: 0;
+    animation: 2s lefth1 ease 0s forwards;
+    -webkit-animation: 2s lefth1 ease 0s forwards;
+    -moz-animation: 2s lefth1 ease 0s forwards;
+    -o-animation: 2s lefth1 ease 0s forwards;
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+}
+
+#banner-240x400 h2,
+#banner-240x400 h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+#banner-240x400 h2{
+    position: absolute;
+    top: 230px;
+    left: 45px;
+    
+    opacity: 0;
+    animation: 2s lefth2 ease 0s forwards;
+    -webkit-animation: 2s lefth2 ease 0s forwards;
+    -moz-animation: 2s lefth2 ease 0s forwards;
+    -o-animation: 2s lefth2 ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s
+}
+
+#banner-240x400 h3{
+    position: absolute;
+    top: 255px;
+    left: 72px;
+    
+    opacity: 0;
+    animation: 2s lefth3 ease 0s forwards;
+    -webkit-animation: 2s lefth3 ease 0s forwards;
+    -moz-animation: 2s lefth3 ease 0s forwards;
+    -o-animation: 2s lefth3 ease 0s forwards;
+    -webkit-animation-delay: 4.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4.5s
+}
+
+#banner-240x400 h4{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #3e323f;
+    font-size: 12px;
+    text-decoration: none;
+    bottom: 5px;
+    right: 5px;
+}
+
+#banner-240x400 #sale{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 83px;
+    height: 83px;
+    border: 4px solid #bc3987;
+    border-radius: 50%;
+    padding-top: 22px;
+    top: 290px;
+    left: 72px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa5ff+0,bc3987+100 */
+    background: rgb(255,165,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,165,255,1) 0%, rgba(188,57,135,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,165,255,1) 0%,rgba(188,57,135,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,165,255,1) 0%,rgba(188,57,135,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa5ff', endColorstr='#bc3987',GradientType=0 ); /* IE6-9 */
+    
+    opacity: 0;
+    animation: 2s scale ease 0s forwards;
+    -webkit-animation: 2s scale ease 0s forwards;
+    -moz-animation: 2s scale ease 0s forwards;
+    -o-animation: 2s scale ease 0s forwards;
+    -webkit-animation-delay: 6s; /* Safari 4.0 - 8.0 */
+    animation-delay: 6s
+}
+
+
+/**********************
+*****animáció-240x400****
+***********************/
+
+@keyframes topgirl {
+    from {
+     top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@-webkit-keyframes topgirl {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@-moz-keyframes topgirl {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@-o-keyframes topgirl {
+    from {
+       top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+
+
+@keyframes bottom {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 50px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes bottom {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 50px;
+    }
+}
+@-moz-keyframes bottom {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 50px;
+    }
+}
+@-o-keyframes bottom {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 50px;
+    }
+}
+
+
+@keyframes lefth1 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 15px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth1 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 15px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth1 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 15px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth1 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 15px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes lefth2 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 45px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth2 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 45px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth2 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 45px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth2 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 45px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes left3 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 72px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth3 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 72px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth3 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 72px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth3 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 72px;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+/**********************
+*****banner-728x90****
+***********************/
+
+#banner-728x90{
+    height: 90px;
+    border: 1px solid #3e323f;
+}
+
+
+#banner-728x90 #girl1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    
+    animation: 2s left ease 0s forwards, 15s imgfade ease 0s forwards;
+    -webkit-animation: 2s left ease 0s forwards, 15s imgfade ease 0s forwards;
+    -moz-animation: 2s left ease 0s forwards, 15s imgfade ease 0s forwards;
+    -o-animation: 2s left ease 0s forwards, 15s imgfade ease 0s forwards;
+}
+
+ 
+#banner-728x90 #girl2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    opacity: 0;
+    animation: 2s left2 ease 0s forwards, 12s scale2 ease 0s forwards;
+    -webkit-animation: 2s left2 ease 0s forwards, 12s scale2 ease 0s forwards;
+    -moz-animation: 2s left2 ease 0s forwards, 12s scale2 ease 0s forwards;
+    -o-animation: 2s left2 ease 0s forwards, 12s scale2 ease 0s forwards;
+    
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+}
+
+#banner-728x90 #purple{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    
+    animation: 2s right ease 0s forwards;
+    -webkit-animation: 2s right ease 0s forwards;
+    -moz-animation: 2s right ease 0s forwards;
+    -o-animation: 2s right ease 0s forwards;
+}
+
+
+
+#banner-728x90 h1{
+    font-family: 'Italianno', cursive;
+    position: absolute;
+    top: 12px;
+    left: 233px;;
+    color: #d668a6;
+    font-size: 43px;
+    line-height: 28px;
+    text-align: center;
+    
+    opacity: 0;
+    animation: 2s toph1 ease 0s forwards;
+    -webkit-animation: 2s toph1 ease 0s forwards;
+    -moz-animation: 2s toph1 ease 0s forwards;
+    -o-animation: 2s toph1 ease 0s forwards;
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+}
+
+#banner-728x90 h2,
+#banner-728x90 h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+#banner-728x90 h2{
+    position: absolute;
+    top: 43px;
+    left: 310px;
+    text-align: center;
+    
+    opacity: 0;
+    animation: 2s toph2 ease 0s forwards;
+    -webkit-animation: 2s toph2 ease 0s forwards;
+    -moz-animation: 2s toph2 ease 0s forwards;
+    -o-animation: 2s toph2 ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s
+}
+
+#banner-728x90 h3{
+    position: absolute;
+    top: 63px;
+    left: 336px;
+    text-align: center;
+    
+    opacity: 0;
+    animation: 2s toph3 ease 0s forwards;
+    -webkit-animation: 2s toph3 ease 0s forwards;
+    -moz-animation: 2s toph3 ease 0s forwards;
+    -o-animation: 2s toph3 ease 0s forwards;
+    -webkit-animation-delay: 4.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4.5s
+}
+
+#banner-728x90 h4{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #3e323f;
+    font-size: 11px;
+    text-decoration: none;
+    bottom: 5px;
+    right: 5px;
+
+}
+
+#banner-728x90 #sale{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 33px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    border: 4px solid #bc3987;
+    border-radius: 50%;
+    padding-top: 24px;
+    top: 0px;
+    left: 520px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa5ff+0,bc3987+100 */
+    background: rgb(255,165,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,165,255,1) 0%, rgba(188,57,135,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,165,255,1) 0%,rgba(188,57,135,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,165,255,1) 0%,rgba(188,57,135,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa5ff', endColorstr='#bc3987',GradientType=0 ); /* IE6-9 */
+    
+    opacity: 0;
+    animation: 2s scale ease 0s forwards;
+    -webkit-animation: 2s scale ease 0s forwards;
+    -moz-animation: 2s scale ease 0s forwards;
+    -o-animation: 2s scale ease 0s forwards;
+    -webkit-animation-delay: 6s; /* Safari 4.0 - 8.0 */
+    animation-delay: 6s
+}
+
+
+/**********************
+*****animáció-728x90****
+***********************/
+
+@keyframes left {
+    0% {
+        left: -100px;
+    }
+
+    100%{
+        left: 0px;
+    }
+}
+@-webkit-keyframes left {
+   0% {
+        left: -100px;
+    }
+    
+    
+    100%{
+        left: 0px;
+    }
+}
+
+@-moz-keyframes left {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 0px;
+    }
+}
+@-o-keyframes left {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes left2 {
+    from {
+        left: 0;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes left2 {
+    from {
+        left: 0;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes left2 {
+    from {
+        left: 0;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+@-o-keyframes left2 {
+    from {
+        left: 0;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes right {
+    from {
+        right: -180px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes right {
+    from {
+        right: -180px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-moz-keyframes right {
+    from {
+        right: -180px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-o-keyframes right {
+    from {
+        right: -180px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+
+@keyframes toph1 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 12px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes toph1 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 12px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes toph1 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 12px;
+        opacity: 1;
+    }
+}
+@-o-keyframes toph1 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 12px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes toph2 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 43px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes toph2 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 43px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes toph2 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 43px;
+        opacity: 1;
+    }
+}
+@-o-keyframes toph2 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 43px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes toph3 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 63px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes toph3 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 63px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes toph3 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 63px;
+        opacity: 1;
+    }
+}
+@-o-keyframes toph3 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 63px;
+        opacity: 1;
+    }
+}
+
+
+@keyframes scale2 {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes scale2 {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-moz-keyframes scale2 {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-o-keyframes scale2 {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+@keyframes scale {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes scale {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-moz-keyframes scale {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-o-keyframes scale {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes scale3 {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes scale3 {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-moz-keyframes scale3 {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-o-keyframes scale3 {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes imgfade {
+    0% {
+        opacity:1;
+    }
+    45% {
+        opacity:1;
+    }
+    55% {
+        opacity:0;
+    }
+    
+    100% {
+        opacity:0;
+    }
+}
+
+
+
